@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+.one{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 23px;
+}
+.main{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav{
+    
+    height: 70px;
+    width: 100%;
+   display: flex;
+   justify-content: end;
+   gap: 20px;
+   /* border: 2px solid; */
+   background-color: white;
+   margin-top: 5px;
+   a{
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+   }
+   a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+   }
+   svg{
+    position: relative;
+    left: 5px;
+   }
+}
+.logo{
+    height: 50px;
+    position: absolute;
+    top: 38px;
+    width: 100px;
+    left: 5px;
+
+}
+.loc{
+    height: 100px;
+    width: 800px;
+    position: relative;
+    border: 2px white;
+    background-color: white;
+    left: 300px;
+    top: -50px;
+    box-shadow: 1px 1px 10px 10px white  ;
+
+}
+svg{
+    position: relative;
+    left: 20px;
+}
+.loc1{
+    position: relative;
+    top: 20px;
+}
+.loc2{
+    position: relative;
+    left: 250px;
+    top: -4px;
+    
+}
+.loc3{
+    position: relative;
+    left: 500px;
+    top: -29px;
+    button{
+        background-color: yellow;
+        border-radius: 6px;
+        border: none;
+        height: 50px;
+        width: 250px;
+    
+        
+    }
+    button:hover{
+        background-color:bisque;
+    }
+}
+.location{
+    position: relative;
+    left: 70px;
+    top: -40px;
+    a{
+        text-decoration: none;
+    }
+}
+.s{
+    position: relative;
+    top: -15px;
+    left: 5px;
+}
+.icons{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    position: absolute;
+    left: 0px;
+    gap: 5px;
+    justify-content: center;
+
+    p{
+        position: relative;
+        top: 70px;
+        left: -50px;
+    }
+    p ,a{
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+        text-decoration-color: aqua;
+    }
+}
+.bikes{
+    height: 700px;
+    width: 100%;
+    /* border: 2px solid; */
+    position:absolute;
+    top: 800px;
+    /* display: flex; */
+    /* flex-direction: row; */
+    column-gap: 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.b1 p{
+    position: relative;
+    left: 15px;
+}
+.but{
+    position: relative;
+    left: 550px;
+ button{
+    height: 50px;
+    width: 250px;
+    background-color: yellow;
+    border: none;
+ }
+ button:hover{
+    background-color: yellowgreen;
+ }
+}
+.ren{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid; */
+    position:relative;
+    top: 796px;
+    /* display: flex; */
+    background-color: rgb(164, 218, 240);
+    h1{
+        text-align: center;
+        font-size: 3rem;
+        font-weight:bold;
+    }
+    .card{
+        display: inline-block;
+        position: relative;
+        top: 50px;
+        left: 70px;
+        border-radius: 25px;
+    }
+    p{
+        font-weight: bold;
+        font-size:large;
+    }
+}
+.que{
+    height:1100px;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+    top: 800px;
+    h1{
+        position: relative;
+        left: 10px;
+        
+    }
+
+}
+.qu2{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+
+button{
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: rgb(198, 222, 247);
+    border-radius: 10px;
+}
+}
+.qu3{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 900px;
+    top: 70px;
+    button{
+        height: 50px;
+        width: 50%;
+        border: none;
+        background-color:yellow;
+        border-radius: 10px;
+    }
+
+}
+.qu4{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 20px;
+    top: 150px;
+    button{
+        height: 50px;
+        width: 70%;
+        border: none;
+        background-color:rgb(198, 222, 247);
+        border-radius: 10px;
+    }
+
+}
+.qu5{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 380px;
+    top: 200px;
+    button{
+        height: 100px;
+        width: 150%;
+        border: none;
+        background-color:yellow;
+        border-radius: 10px;
+    }
+
+
+}
+.qu6{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 20px;
+    top: 300px;
+    button{
+        height: 100px;
+        width: 120%;
+        border: none;
+        background-color:rgb(198, 222, 247);
+        border-radius: 10px;
+}
+
+}
+.qu7{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 400px;
+    top: 400px;
+    button{
+        height: 100px;
+        width: 150%;
+        border: none;
+        background-color:yellow;
+        border-radius: 10px;
+}
+}
+.qu8{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 20px;
+    top: 500px;
+    button{
+        height: 100px;
+        width: 120%;
+        border: none;
+        background-color:rgb(198, 222, 247);
+        border-radius: 10px;
+}
+}
+.qu9{
+    height: 20px;
+    width: 550px;
+    position: relative;
+    left: 400px;
+    top: 600px;
+    button{
+        height: 100px;
+        width: 150%;
+        border: none;
+        background-color:yellow;
+        border-radius: 10px;
+
+}
+}
+.faq{
+    height: 20px;
+    width: 200px;
+    position: relative;
+    top: 750px;
+    left: 500px;
+    button{
+        color: blue;
+        font-size: large;
+        font-weight: bold;
+        height: 50px;
+        width: 150px;
+        border-color: blue;
+        background-color: white;
+    }
+    button:hover{
+        background-color: antiquewhite;
+    }
+}
+.back{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid; */
+    position: relative;
+    top: 800px;
+}
+.find{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    top: -150px;
+    left: 750px;
+    background-color: yellow;
+    text-align: center;
+    transform: rotateX('250deg');
+    button{
+        height: 40px;
+        width: 300px;
+        background-color: yellow;
+        border: none;
+        font-weight: 900;
+        font-style: italic;
+    }
+    button:hover{
+        /* border-radius: 50px; */
+        background-color: aqua;
+    }
+}
+.footer{
+    height: 500px;
+    width: 100%;
+    border: 2px solid;
+    position: relative;
+    top: 800px;
+    background-color: black;
+}
+.about{
+    height: 50px;
+    width: 500px;
+    p{
+        
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    h6{
+        position: relative;
+        left: 50px;
+        color:rgb(89, 98, 107) ;
+        top: 30px;
+        font-weight: bolder;
+    }
+}
+.poli{
+    P{
+        color: white;
+        position: relative;
+        left: 600px;
+        top: -40px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    a{
+        position: relative;
+        font-weight: bolder;
+        left: 600px;
+        top: -60px;
+        text-decoration: none;
+        color: rgb(89, 98, 107);
+    
+    }
+    a:hover{
+        color: white;
+    }
+}
+.get{
+    p{
+        color: white;
+        position:relative;
+        top: -225px;
+        left: 950px;
+        font-weight: bolder;
+    }
+    h6{
+        color:rgb(89, 98, 107);
+        position: relative;
+        left: 950px;
+        top: -220px;
+    }
+    svg{
+        height: 20px;
+        width: 50px;
+        position: relative;
+        left: 900px;
+        top: -200px;
+    }
+    h5{
+        color: white;
+        position: absolute;
+        top: 130px;
+        left: 1010px;
+    }
+
+
+}
+.foll{
+    p{
+        color:white ;
+        position: absolute;
+        top: 170px;
+        left: 920px;
+        font-weight: bolder;
+    }
+    svg{
+        height: 20px;
+        width: 50px;
+        position: absolute;
+        top: 198px;
+        left:900px;
+    }
+}
+.for{
+    height: 150px;
+    width: 99%;
+    /* border: 1px white solid; */
+    position: absolute;
+    top: 220px;
+    h6{
+        color: rgb(89, 98, 107);
+        text-align: center;
+        font-weight: bolder;
+    }
+    p{
+        color: rgb(89, 98, 107);
+    }
+}
+.our{
+    height: 100px;
+    width: 99%;
+    /* border: white 2px solid; */
+    h6{
+        color: rgb(89, 98, 107);
+        text-align: center;
+        font-weight: bolder;
+    }
+    p{
+        color: rgb(89, 98, 107);
+    }
+
+}
